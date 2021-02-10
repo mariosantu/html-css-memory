@@ -9,7 +9,7 @@
 
 /*Body Start*/
  body{
-     background-color: #7fffd4d8;
+     background-color: #add8e6;
      font-family: "Nerko One";
  }
 
@@ -39,14 +39,12 @@ header h1{
 
 
 
-.cardscontainer{
+.cardsrow{
     text-align: center;
     padding: 20px;
 
    
 }
-
-
 
 
 .card-size{
@@ -55,10 +53,15 @@ header h1{
     background-color: white;
     display: inline-block;
     margin-left: 20px;
-    
-
 }
 
+
+img{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+
+}
 
 
 
