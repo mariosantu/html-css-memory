@@ -20,7 +20,6 @@
  .container{
     width: 65%;
     margin: auto;
-    background-color: grey;
 }
 /*Container End*/
 
@@ -31,6 +30,7 @@ header h1{
     font-size: 100px;
     text-align: center;
     color: white;
+    border: 1px solid black;
 }
 /*Header End*/
 
@@ -39,7 +39,25 @@ header h1{
 
 
 
+.cardscontainer{
+    text-align: center;
+    padding: 20px;
 
+   
+}
+
+
+
+
+.card-size{
+    height: 225px;
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    margin-left: 20px;
+    
+
+}
 
 
 
