@@ -7,8 +7,13 @@
 /*RESET*/
 
 
-/*TESTLINK*/
 
-body{
-    background-color: red;
+
+/*Container Start*/
+.container{
+    
+    width: 65%;
+    margin: auto;
+    background-color: grey;
 }
+/*Container End*/
