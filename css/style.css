@@ -45,6 +45,7 @@ header h1 {
 
 
 .cards {
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.25);
     border-radius: 10px;
     height: 225px;
     width: 20%;
@@ -93,6 +94,7 @@ header h1 {
 .cards:hover .txt {
     display: block;
 }
+
 
 
 /*Main End*/
