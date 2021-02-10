@@ -40,9 +40,7 @@ header h1{
 
 .cardsrow{
     text-align: center;
-    padding: 20px;
-
-   
+    padding: 20px;  
 }
 
 
@@ -52,21 +50,27 @@ header h1{
     background-color: white;
     display: inline-block;
     margin-left: 20px;
+    padding: 40px;
+    position: relative;
+    
 }
 
 
 img{
     width: 100%;
     display: block;
-    overflow: hidden;
-   
-    
-    
-
+    position: relative;
+    bottom: 39px;  
 }
 
+.txt{
+    color: blueviolet;
+    font-size: 25px;
+    position: absolute;
+    bottom: 7px;
+    right: 65px;
 
-
+}
 
 
 
