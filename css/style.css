@@ -44,7 +44,7 @@ header h1{
 }
 
 
-.card-size{
+.cards{
     height: 225px;
     width: 20%;
     background-color: white;
@@ -71,6 +71,8 @@ img{
     right: 65px;
 
 }
+
+
 
 
 
