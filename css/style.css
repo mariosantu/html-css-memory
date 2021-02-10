@@ -8,7 +8,7 @@
 
 
 /*Body Start*/
- body{
+ body {
      background-color: #add8e6;
      font-family: "Nerko One";
  }
@@ -17,7 +17,7 @@
 
 
 /*Container Start*/
- .container{
+ .container {
     width: 65%;
     margin: auto;
 }
@@ -26,7 +26,7 @@
 
 /*Header Start*/
 
-header h1{
+header h1 {
     font-size: 100px;
     text-align: center;
     color: white; 
@@ -38,13 +38,14 @@ header h1{
 
 
 
-.cardsrow{
+.cardsrow {
     text-align: center;
     padding: 20px;  
 }
 
 
-.cards{
+.cards {
+    border-radius: 10px;
     height: 225px;
     width: 20%;
     background-color: white;
@@ -52,35 +53,55 @@ header h1{
     margin-left: 20px;
     padding: 40px;
     position: relative;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
     
 }
 
 
-img{
+.cards img {
     width: 100%;
     display: block;
     position: relative;
     bottom: 39px;  
 }
 
-.txt{
+.txt {
     color: blueviolet;
     font-size: 25px;
     position: absolute;
     bottom: 7px;
-    right: 65px;
+    left: 0;
+    width: 100%;
 
 }
 
+.cards img, .txt {
+    display: none; 
 
+}
 
+.cards:hover {
+    background-image: none;
 
+}
 
+.cards:hover img {
+    display: block;
+}
 
-
+.cards:hover .txt {
+    display: block;
+}
 
 
 /*Main End*/
 
+/*Footer Start*/
+
+footer{
+    text-align: center;
+}
 
 
+/*Footer End*/
