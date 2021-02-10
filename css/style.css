@@ -91,11 +91,19 @@ header h1 {
     display: block;
 }
 
-.cards:hover .txt {
+ .cards:hover .txt {
     display: block;
 }
 
+.cards.none {
+    
+    background-image: none;
+    
+}
 
+.salmon{
+    color: salmon;
+}
 
 /*Main End*/
 
