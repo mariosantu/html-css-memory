@@ -82,24 +82,25 @@ header h1 {
 
 }
 
+.cards.none, 
 .cards:hover {
     background-image: none;
 
 }
 
+.cards.none img, 
 .cards:hover img {
     display: block;
 }
 
+.cards.none .txt , 
  .cards:hover .txt {
     display: block;
 }
 
-.cards.none {
-    
-    background-image: none;
-    
-}
+
+
+
 
 .salmon{
     color: salmon;
